@@ -120,6 +120,7 @@ img {
 }
 
 .nav-contact {
+  display: flex;
   color: var(--secondary-text-color);
   text-decoration: none;
 }
