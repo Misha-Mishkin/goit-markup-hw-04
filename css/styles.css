@@ -144,7 +144,8 @@ img {
 .main-section {
   text-align: center;
   padding: 200px 0px;
-
+}
+.overlay {
   background-color: #2f303a;
 
   background-image: linear-gradient(
@@ -318,8 +319,82 @@ img {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 16px;
+}
+.social-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.social-list .social-item + .social-item {
+  margin-left: 10px;
+}
+.social-item {
+  width: 44px;
+  height: 44px;
+}
+.social-link {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.social-icon {
+  fill: #afb1b8;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-text-color);
+}
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+  fill: #ffffff;
 }
 
+/* Постоянные клиенты */
+
+.client-title {
+  margin-bottom: 50px;
+
+  color: var(--primery-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.client-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.client-list .client-item + .client-item {
+  margin-left: 30px;
+}
+
+.client-link {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  border: 1px solid #afb1b8;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+.client-icon {
+  fill: #afb1b8;
+}
+
+.client-item:hover .client-link,
+.client-item:focus .client-link {
+  border: 1px solid var(--accent-text-color);
+}
+.client-link:hover .client-icon,
+.client-link:focus .client-icon {
+  fill: var(--accent-text-color);
+}
 /* Подвал сайта */
 
 .footer {
