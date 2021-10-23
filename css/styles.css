@@ -387,9 +387,9 @@ img {
   fill: #afb1b8;
 }
 
-.client-item:hover .client-link,
-.client-item:focus .client-link {
-  border: 1px solid var(--accent-text-color);
+.client-link:hover,
+.client-link:focus {
+  border-color: var(--accent-text-color);
 }
 .client-link:hover .client-icon,
 .client-link:focus .client-icon {
