@@ -404,6 +404,7 @@ img {
 }
 .footer-section {
   display: flex;
+  align-items: baseline;
 }
 .logo-footer {
   display: block;
@@ -457,7 +458,6 @@ img {
 }
 .footer-social {
   margin-left: 70px;
-  margin-top: 12px;
 }
 .footer-social-title {
   margin-bottom: 20px;
@@ -563,8 +563,13 @@ img {
   margin-top: 30px;
 }
 
-.portfolio-img:hover,
-.portfolio-img:focus {
+.portfolio-link {
+  display: block;
+  text-decoration: none;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -573,6 +578,7 @@ img {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
+  text-decoration: none;
 }
 
 .portfolio-subtitle {
